@@ -30,6 +30,7 @@ def setup(num_points, k, p):
 
     return points, Vs
 
+
 def create_bunch(p: Point, Vs: list[list[Point]]):
     bunch = [[] for _ in range(len(Vs))]
     
@@ -124,7 +125,7 @@ if __name__ == "__main__":
             
             ratios.append(dist(u, v, Vs))
 
-    print(np.median(ratios))
+    print(f"Mean: {np.mean(ratios)}\nMedian: {np.median(ratios)}")
 
     plt.hist(ratios, bins=100)
     plt.show()
