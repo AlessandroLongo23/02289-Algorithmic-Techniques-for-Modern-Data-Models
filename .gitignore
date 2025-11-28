@@ -7,5 +7,14 @@ mod_1_approximated_data_structures/mod_1_2_distance_oracles/lib/__pycache__/
 mod_1_approximated_data_structures/mod_1_3_approximate_near_neighbor_search/lib/__pycache__/
 
 mod_2_distributed_computing/mod_2_1_path_coloring/lib/__pycache__/
+mod_2_distributed_computing/mod_2_2_congest_model/lib/__pycache__/
+mod_2_distributed_computing/mod_2_3_randomized_graph_coloring/lib/__pycache__/
 
-mod_3_streaming/mod_3_1_misra_gries_algorithm/lib/__pycache__/
+mod_3_streaming/mod_3_1_misra_gries/lib/__pycache__/
+mod_3_streaming/mod_3_2_approximate_counting_and_frequency_estimation/lib/__pycache__/
+mod_3_streaming/mod_3_3_sketching_and_counting/lib/__pycache__/
+mod_3_streaming/mod_3_4_graph_streaming/lib/__pycache__/
+
+mod_4_massively_parallel_computing/lib/__pycache__/
+
+mod_5_dynamic_connectivity/lib/__pycache__/
