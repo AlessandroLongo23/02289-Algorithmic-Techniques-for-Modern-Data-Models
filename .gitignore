@@ -1,9 +1,11 @@
 .venv/
 
-1. Approximated Data Structure/1.1. Bloom Filters/lib/__pycache__/
-1. Approximated Data Structure/1.2. Distance Oracles/lib/__pycache__/
-1. Approximated Data Structure/1.3. Approximate Near Neighbor Search/lib/__pycache__/
+lib/__pycache__/
 
-2. Distributed Computing/2.1. Path Coloring/lib/__pycache__/
+mod_1_approximated_data_structures/mod_1_1_bloom_filters/lib/__pycache__/
+mod_1_approximated_data_structures/mod_1_2_distance_oracles/lib/__pycache__/
+mod_1_approximated_data_structures/mod_1_3_approximate_near_neighbor_search/lib/__pycache__/
 
-3. Streaming/3.1. Misra-Gries Algorithm/lib/__pycache__/
+mod_2_distributed_computing/mod_2_1_path_coloring/lib/__pycache__/
+
+mod_3_streaming/mod_3_1_misra_gries_algorithm/lib/__pycache__/
