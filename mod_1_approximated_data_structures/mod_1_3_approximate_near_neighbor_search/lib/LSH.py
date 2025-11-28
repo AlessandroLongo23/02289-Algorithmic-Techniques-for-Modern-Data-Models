@@ -1,4 +1,4 @@
-from lib.HashFunction import HashFunction
+from lib.hash_function import HashFunction
 from lib.utils import hamming_distance
 
 class LSH:

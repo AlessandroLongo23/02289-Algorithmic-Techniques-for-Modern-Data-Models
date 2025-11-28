@@ -1,5 +1,5 @@
 from lib.utils import hamming_distance
-from lib.LSH import LSH
+from lib.lsh import LSH
 
 class ALSH:
     def __init__(self, tables: list[LSH]):
