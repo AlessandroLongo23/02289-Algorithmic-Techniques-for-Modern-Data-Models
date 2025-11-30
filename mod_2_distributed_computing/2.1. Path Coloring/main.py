@@ -9,14 +9,13 @@ if __name__ == "__main__":
     debug = True
 
     # Test single run
-    # algorithm = get_algorithm(algorithm_name, n)
-    # print(f"Steps: {single_run(algorithm, debug)}")
+    algorithm = get_algorithm(algorithm_name, n)
+    print(f"Steps: {single_run(algorithm, debug)}")
     
     # Run multiple simulations
-    steps = simulate(n, algorithm_name, simulations, debug)
+    # steps = simulate(n, algorithm_name, simulations, debug)
 
-    print(f"Mean: {np.mean(steps)}\nMedian: {np.median(steps)}\nStd: {np.std(steps)}")
+    # print(f"Mean: {np.mean(steps)}\nMedian: {np.median(steps)}\nStd: {np.std(steps)}")
 
-    plt.hist(steps)
-    plt.savefig("histogram.png")
-    plt.show()
+    # plt.hist(steps)
+    # plt.show()
